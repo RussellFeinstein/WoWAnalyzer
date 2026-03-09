@@ -168,7 +168,7 @@ export function Component() {
             </div>
           </Panel>
           {user && (
-            <Panel title={<Trans id="interface.premiumPage.you">You</Trans>}>
+            <Panel title={<Trans id="interface.premiumPage.you">You</Trans>} subheading>
               <Trans id="interface.premiumPage.status">
                 Hello {user.name}. Your Premium is currently{' '}
                 {user.premium ? (
