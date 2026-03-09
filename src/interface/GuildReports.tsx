@@ -511,13 +511,13 @@ class GuildReports extends Component<Props, State> {
                         <Trans id="interface.guildReports.refresh">Refresh</Trans>
                       </Link>
                     </div>
-                    <h1 style={{ display: 'inline-block' }}>
+                    <h2 style={{ display: 'inline-block' }}>
                       {this.state.error ? (
                         i18n._(this.state.error)
                       ) : (
                         <Trans id="interface.guildReports.guildReports">Guild Reports</Trans>
                       )}
-                    </h1>
+                    </h2>
                     <small>
                       <Trans id="interface.guildReports.guildReportsDetails">
                         This page will only show guild reports that are public and listed on

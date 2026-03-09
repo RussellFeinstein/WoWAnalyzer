@@ -842,13 +842,13 @@ class CharacterParses extends Component<CharacterParsesProps, CharacterParsesSta
                         </Trans>
                       </Link>
                     </div>
-                    <h1 style={{ display: 'inline-block' }}>
+                    <h2 style={{ display: 'inline-block' }}>
                       {this.state.error ? (
                         i18n._(this.state.error)
                       ) : (
                         <Trans id="interface.characterParses.characterParses.parses">Parses</Trans>
                       )}
-                    </h1>
+                    </h2>
                     <small>
                       <Trans id="interface.characterParses.characterParses.parsesDetails">
                         This page will only show fights that have been ranked by Warcraft Logs.
