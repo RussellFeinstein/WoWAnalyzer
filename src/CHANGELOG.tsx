@@ -39,6 +39,7 @@ export default [
   change(date(2026, 3, 10), 'Add <Main> Landmark to all pages.', Rex),
   change(date(2026, 3, 10), 'Update usable potions for Midnight.', Vetyst),
   change(date(2026, 3, 8), 'Add enchants to the character tab.', Vetyst),
+  change(date(2026, 3, 9), 'Add landmarks and fix headings', Rex),
   change(date(2026, 3, 8), 'Make Divs accessible to Keyboards and Screenreaders.', Rex),
   change(date(2026, 3, 6), 'Added a Stacked Bar component visual to use in Guides.', Sharrq),
   change(date(2026, 2, 28), 'Rework the visuals of CastDetail, CastSummary, and CastOverview.', Sharrq),
